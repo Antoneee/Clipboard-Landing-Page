@@ -1,0 +1,178 @@
+@media (max-width: 70em) {
+  html {
+    font-size: 9px;
+  }
+
+  .snippets-text {
+    width: 90%;
+  }
+
+  .logos-container {
+    justify-content: center;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  .footer {
+    padding: 2.4rem 6.4rem 0 6.4rem;
+  }
+
+  .footer-logo {
+    margin-right: 6.4rem;
+  }
+
+  .nav-footer {
+    gap: 4.8rem;
+  }
+
+  .attribution {
+    padding: 1.2rem 0 0.1rem;
+  }
+}
+
+@media (max-width: 54em) {
+  html {
+    font-size: 8px;
+  }
+
+  .snippets-text {
+    width: 100%;
+  }
+
+  .grid--2-col {
+    grid-template-columns: 1fr;
+  }
+
+  .snippets-header {
+    grid-column: 1;
+  }
+
+  .snippets-features {
+    grid-column: 1;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .img-container {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+  }
+
+  .snippets-img {
+    transform: translateX(0);
+    width: 60%;
+  }
+
+  .clipboard-img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 44em) {
+  .grid--3-col {
+    grid-template-columns: 1fr;
+  }
+
+  .section-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading-primary {
+    width: 80%;
+  }
+
+  .feature-title {
+    font-size: 3rem;
+  }
+
+  .workflow-section {
+    gap: 6.4rem;
+  }
+
+  .workflow-header {
+    margin-bottom: 3.2rem;
+  }
+
+  .workflow-feature {
+    justify-self: center;
+    width: 80%;
+  }
+
+  .workflow-icon {
+    margin-bottom: 3.2rem;
+  }
+
+  .logos-container {
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 4rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 4.8rem 0;
+    padding-bottom: 2.4rem;
+    gap: 4.8rem;
+  }
+
+  .footer-logo {
+    margin-right: 0;
+  }
+
+  .nav-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.4rem;
+  }
+
+  .social-container {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 28em) {
+  .container {
+    width: 90%;
+  }
+
+  .heading-primary,
+  .hero-text {
+    width: 100%;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+
+  .snippets-features {
+    padding: 6.4rem 0;
+  }
+
+  .section-clipboard {
+    gap: 6.4rem;
+  }
+
+  .workflow-section {
+    padding: 0;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto 16rem auto;
+    text-align: center;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 2rem;
+  }
+}
